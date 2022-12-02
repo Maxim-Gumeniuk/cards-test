@@ -1,12 +1,12 @@
 {
   "name": "cart",
   "source": "src/index.html",
-  "homepage": " https://maxim-gumeniuk.github.io/cards-test/",
+  "homepage": "https://maxim-gumeniuk.github.io/cards-test/",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "watch": "parcel src/index.html --open --port 3000",
     "start": "parcel",
-    "build": "parcel build src/index.html",
+    "build": "parcel build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
