@@ -1,7 +1,6 @@
 .card {
-  height: 100%;
-  min-width: 150px;
-  max-height: 250px;
+  max-width: 150px;
+  height: 250px;
   text-align: center;
   border: 1px solid #c95151;
   padding: 0px 20px;
@@ -35,6 +34,8 @@
 }
 
 .input {
-  width: 120px;
+  width: 130px;
   height: 100px;
+  text-transform: uppercase;
+  text-align: center;
 }
