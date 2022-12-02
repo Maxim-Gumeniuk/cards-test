@@ -1,0 +1,24 @@
+.loader {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #6062e4;
+  border-left: transparent;
+  border-radius: 50%;
+  animation-name: lds-ring;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

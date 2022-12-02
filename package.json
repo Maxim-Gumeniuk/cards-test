@@ -1,0 +1,18 @@
+{
+  "name": "cart",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "watch": "parcel src/index.html --open --port 3000",
+    "start": "parcel",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "eslint": "^8.28.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.8.0",
+    "prettier": "^2.8.0"
+  }
+}
