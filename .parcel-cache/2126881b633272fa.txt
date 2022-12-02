@@ -1,5 +1,5 @@
-7690
-32C:\Users\USER\carts\package.json133144630559625858 0
+7713
+32C:\Users\USER\carts\package.json133144631924012837 0
 73C:\Users\USER\carts\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133143141401596801 0
 50C:\Users\USER\carts\node_modules\dotenv-expand\lib133143141357955855 1
 55C:\Users\USER\carts\node_modules\lodash\_setCacheAdd.js133143194881848943 0
@@ -45,7 +45,7 @@
 70C:\Users\USER\carts\node_modules\@eslint\eslintrc\lib\shared\naming.js133143137575017488 0
 47C:\Users\USER\carts\node_modules\find-cache-dir133143194867595149 1
 30C:\Users\USER\carts\src\styles133144486439795595 1
-24C:\Users\USER\carts\dist133144631163734125 1
+24C:\Users\USER\carts\dist133144633161700169 1
 84C:\Users\USER\carts\node_modules\js-sdsl\dist\esm\container\HashContainer\HashSet.js133143137579894265 0
 53C:\Users\USER\carts\node_modules\@parcel\packager-svg133143141374460773 1
 55C:\Users\USER\carts\node_modules\lodash\fp\zipObject.js133143194919888084 0
@@ -488,6 +488,7 @@
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\74\ca7e3a5edb89e189108b9876adfb80ef2feccf133144607785646843 0
 64C:\Users\USER\carts\node_modules\caniuse-lite\data\regions\TT.js133143141812271074 0
 58C:\Users\USER\carts\node_modules\sass\types\value\map.d.ts133143673829002614 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\1f133144632714740176 1
 45C:\Users\USER\carts\node_modules\sass\sass.js133143673826888159 0
 40C:\Users\USER\carts\node_modules\reusify133143137568939835 1
 52C:\Users\USER\carts\node_modules\eslint-visitor-keys133143137567954004 1
@@ -897,7 +898,6 @@
 41C:\Users\USER\carts\node_modules\p-locate133143137565905622 1
 51C:\Users\USER\carts\node_modules\debug\package.json133143137567722450 0
 52C:\Users\USER\carts\node_modules\lodash\_baseUniq.js133143194875044716 0
-111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\index.scss133144629151560832 0
 90C:\Users\USER\carts\node_modules\@parcel\runtime-js\src\helpers\browser\import-polyfill.js133143141448669559 0
 70C:\Users\USER\carts\node_modules\@parcel\transformer-svg\lib\inline.js133143141374478340 0
 71C:\Users\USER\carts\node_modules\utility-types\dist\mapped-types.js.map133143141395894116 0
@@ -1424,6 +1424,7 @@
 49C:\Users\USER\carts\node_modules\wrappy\wrappy.js133143137564803835 0
 79C:\Users\USER\carts\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133143141596772958 0
 88C:\Users\USER\carts\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133143141653630116 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\b4\4bb8e7293974f3b0fd9d2ed6b527491677110b133144632710710270 0
 51C:\Users\USER\carts\node_modules\parse-json\license133143141315847227 0
 78C:\Users\USER\carts\node_modules\@parcel\fs-search\fs-search.darwin-arm64.node133143141388538453 0
 62C:\Users\USER\carts\node_modules\v8-compile-cache\package.json133143141329754540 0
@@ -1487,6 +1488,7 @@
 58C:\Users\USER\carts\node_modules\weak-lru-cache\index.d.ts133143141381530175 0
 65C:\Users\USER\carts\node_modules\@parcel\core\src\public\Asset.js133143141448669559 0
 58C:\Users\USER\carts\node_modules\node-addon-api\LICENSE.md133143141429668881 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\49\9751ee9040fdacd28a2c98c0d66934eb422607133144632715325984 0
 81C:\Users\USER\carts\node_modules\caniuse-lite\data\features\orientation-sensor.js133143141776567928 0
 56C:\Users\USER\carts\node_modules\weak-lru-cache\index.js133143141332530449 0
 54C:\Users\USER\carts\node_modules\lodash\functionsIn.js133143194894241434 0
@@ -1571,6 +1573,7 @@
 51C:\Users\USER\carts\node_modules\lodash\fp\getOr.js133143194894391033 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\20\d15af267581a5ab7e818e2b78459329ae907d5133144607796606958 0
 75C:\Users\USER\carts\node_modules\uri-js\dist\esnext\schemes\urn-uuid.js.map133143137576296925 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\31\f7e85820342c8eb502f15e50ba9dcffa07eca8133144631345224812 0
 54C:\Users\USER\carts\node_modules\lodash\_baseAssign.js133143194870267471 0
 48C:\Users\USER\carts\node_modules\lodash\value.js133143194918412045 0
 78C:\Users\USER\carts\node_modules\htmlnano\lib\modules\removeAttributeQuotes.js133143141457534082 0
@@ -1845,6 +1848,7 @@
 55C:\Users\USER\carts\node_modules\eslint\lib\rules\utils133143137585175210 1
 61C:\Users\USER\carts\node_modules\strip-json-comments\index.js133143137562091142 0
 50C:\Users\USER\carts\node_modules\globals\readme.md133143137567262948 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\c8\81ca8363b70fb463d4dedd8014c7b165463a14133144632730173257 0
 53C:\Users\USER\carts\node_modules\lodash\fp\xorWith.js133143194919658703 0
 56C:\Users\USER\carts\node_modules\lodash\_baseIteratee.js133143194872551367 0
 54C:\Users\USER\carts\node_modules\lodash\_arrayEvery.js133143194868532646 0
@@ -2266,7 +2270,7 @@
 61C:\Users\USER\carts\node_modules\fast-deep-equal\package.json133143137567722450 0
 71C:\Users\USER\carts\node_modules\source-map\lib\source-map-generator.js133143141396864322 0
 62C:\Users\USER\carts\node_modules\source-map\lib\source-node.js133143141400707719 0
-42C:\Users\USER\carts\dist\index.501c8203.js133144631163328759 0
+42C:\Users\USER\carts\dist\index.501c8203.js133144633161036329 0
 74C:\Users\USER\carts\node_modules\@humanwhocodes\object-schema\.eslintrc.js133143137562091142 0
 52C:\Users\USER\carts\node_modules\lodash\_SetCache.js133143194881789069 0
 56C:\Users\USER\carts\node_modules\sass\types\compile.d.ts133143673827594971 0
@@ -2311,6 +2315,7 @@
 61C:\Users\USER\carts\node_modules\@parcel\workers\src\Trace.js133143141484228491 0
 50C:\Users\USER\carts\node_modules\sass\types\legacy133143673830486987 1
 82C:\Users\USER\carts\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133143141380540016 0
+115C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.a991a3b3.js.map133144632735154505 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\bc\463596b363825a72fde6af92be43427e5b3a14133144615573632217 0
 87C:\Users\USER\carts\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133143141389945998 0
 56C:\Users\USER\carts\node_modules\concat-map\package.json133143137560194257 0
@@ -2339,6 +2344,7 @@
 42C:\Users\USER\carts\node_modules\lmdb\dict133143141653232496 1
 74C:\Users\USER\carts\node_modules\@humanwhocodes\object-schema\CHANGELOG.md133143137571604617 0
 64C:\Users\USER\carts\node_modules\prettier\esm\parser-glimmer.mjs133143139052318493 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\92\27da1a8bc2eaa7fc1566614cd931c7d265a08c133144632710757356 0
 55C:\Users\USER\carts\node_modules\lodash\intersection.js133143194895687572 0
 63C:\Users\USER\carts\node_modules\sass\types\value\function.d.ts133143673828152913 0
 50C:\Users\USER\carts\node_modules\eslint\lib\api.js133143137568918157 0
@@ -2420,7 +2426,6 @@
 56C:\Users\USER\carts\node_modules\posthtml-parser\license133143141318693843 0
 50C:\Users\USER\carts\node_modules\lodash\fp\head.js133143194894919623 0
 51C:\Users\USER\carts\node_modules\regexpp\index.d.ts133143137571670772 0
-112C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\button.scss133144629151550861 0
 54C:\Users\USER\carts\node_modules\ajv\lib\dot\items.jst133143137580191941 0
 49C:\Users\USER\carts\node_modules\regexpp\index.js133143137563565726 0
 54C:\Users\USER\carts\node_modules\graceful-fs\README.md133143194868582522 0
@@ -2632,7 +2637,7 @@
 58C:\Users\USER\carts\node_modules\cosmiconfig\dist\index.js133143141374178196 0
 50C:\Users\USER\carts\node_modules\lodash\isEqual.js133143194897524050 0
 72C:\Users\USER\carts\node_modules\pkg-dir\node_modules\find-up\index.d.ts133143194867336263 0
-104C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\index133144629152495893 0
+104C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\index133144632736055464 0
 103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\71133144607786002343 1
 49C:\Users\USER\carts\node_modules\deep-is\index.js133143137565627694 0
 70C:\Users\USER\carts\node_modules\pkg-dir\node_modules\find-up\index.js133143194867565222 0
@@ -2813,6 +2818,7 @@
 45C:\Users\USER\carts\node_modules\once\once.js133143137564819385 0
 51C:\Users\USER\carts\node_modules\lmdb\dict\dict.txt133143141652802190 0
 50C:\Users\USER\carts\node_modules\once\package.json133143137560149969 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\bf\baafec44f7ba55c0261d47846b2963f550e17e133144632729863763 0
 53C:\Users\USER\carts\node_modules\ajv\lib\dot\enum.jst133143137580013539 0
 52C:\Users\USER\carts\node_modules\lodash\fp\divide.js133143194890012800 0
 49C:\Users\USER\carts\node_modules\lodash\uniqBy.js133143194917354859 0
@@ -2878,7 +2884,7 @@
 57C:\Users\USER\carts\node_modules\normalize-path\README.md133143673823139563 0
 71C:\Users\USER\carts\node_modules\make-dir\node_modules\semver\range.bnf133143194867326526 0
 51C:\Users\USER\carts\node_modules\node-releases\data133143141342920509 1
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\heads133144629150082292 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\heads133144632734406139 1
 59C:\Users\USER\carts\node_modules\node-releases\package.json133143141335738291 0
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\51133144625514347545 1
 73C:\Users\USER\carts\node_modules\@swc\helpers\src\_is_native_function.mjs133143141650758483 0
@@ -2932,6 +2938,7 @@
 68C:\Users\USER\carts\node_modules\node-addon-api\package-support.json133143141415410510 0
 55C:\Users\USER\carts\node_modules\import-fresh\readme.md133143137565047614 0
 53C:\Users\USER\carts\node_modules\node-addon-api\tools133143141437093784 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\67133144632715268426 1
 69C:\Users\USER\carts\node_modules\cosmiconfig\dist\getDirectory.js.map133143141430278602 0
 69C:\Users\USER\carts\node_modules\node-addon-api\tools\clang-format.js133143141401766396 0
 67C:\Users\USER\carts\node_modules\caniuse-lite\data\features\ping.js133143141784312735 0
@@ -2989,7 +2996,7 @@
 51C:\Users\USER\carts\node_modules\msgpackr\unpack.js133143141447221576 0
 47C:\Users\USER\carts\node_modules\domhandler\lib133143141380516174 1
 56C:\Users\USER\carts\node_modules\lodash\isPlainObject.js133143194900186944 0
-104C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.html133144629151520942 0
+104C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.html133144632735154505 0
 64C:\Users\USER\carts\node_modules\msgpackr\dist\index-no-eval.cjs133143141345148452 0
 70C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-all.js133143141637047252 0
 53C:\Users\USER\carts\node_modules\lodash\_arrayPush.js133143194869150995 0
@@ -3040,6 +3047,7 @@
 104C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\packed-refs133143200203724602 0
 54C:\Users\USER\carts\node_modules\lodash\_copyObject.js133143194875962254 0
 62C:\Users\USER\carts\node_modules\mdn-data\css\definitions.json133143141391924276 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\d7133144632715320700 1
 55C:\Users\USER\carts\node_modules\lodash\fp\extendAll.js133143194891319247 0
 52C:\Users\USER\carts\node_modules\lmdb\dict\dict2.txt133143141653232496 0
 55C:\Users\USER\carts\node_modules\lodash\_copySymbols.js133143194875982203 0
@@ -3213,7 +3221,6 @@
 74C:\Users\USER\carts\node_modules\caniuse-lite\data\features\import-maps.js133143141739577375 0
 78C:\Users\USER\carts\node_modules\fast-json-stable-stringify\example\key_cmp.js133143137567219563 0
 48C:\Users\USER\carts\node_modules\lodash\floor.js133143194892954873 0
-101C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts133144629151402475 1
 47C:\Users\USER\carts\node_modules\lodash\flow.js133143194893094497 0
 62C:\Users\USER\carts\node_modules\@parcel\watcher\index.js.flow133143141418625633 0
 88C:\Users\USER\carts\node_modules\eslint\lib\linter\code-path-analysis\code-path-state.js133143137577016753 0
@@ -3863,7 +3870,7 @@
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\fb\7ac9ce2391dec86ef5277b3878388d01d40dc7133144615560128322 0
 55C:\Users\USER\carts\node_modules\lodash\fp\identical.js133143194894979501 0
 54C:\Users\USER\carts\node_modules\lodash\fp\identity.js133143194894999430 0
-127C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin\gh-pages133144628721372437 0
+127C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin\gh-pages133144631370321939 0
 61C:\Users\USER\carts\node_modules\ajv\lib\dot\dependencies.jst133143137579932734 0
 54C:\Users\USER\carts\node_modules\lodash\fp\includes.js133143194895188924 0
 58C:\Users\USER\carts\node_modules\lodash\fp\includesFrom.js133143194895268694 0
@@ -4348,7 +4355,7 @@
 51C:\Users\USER\carts\node_modules\json5\lib\index.js133143141337428383 0
 76C:\Users\USER\carts\node_modules\@parcel\workers\test\integration\workerfarm133143141468197868 1
 53C:\Users\USER\carts\node_modules\json5\lib\parse.d.ts133143141425482519 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\aa\9e199bfa1aee5536060d2b822c3399deb1101b133144625563163285 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\aa\9e199bfa1aee5536060d2b822c3399deb1101b133144632736002205 0
 53C:\Users\USER\carts\node_modules\json5\lib\require.js133143141378722648 0
 82C:\Users\USER\carts\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133143141367713825 0
 57C:\Users\USER\carts\node_modules\json5\lib\stringify.d.ts133143141427879640 0
@@ -4496,6 +4503,7 @@
 56C:\Users\USER\carts\node_modules\array-uniq\package.json133143194866558345 0
 87C:\Users\USER\carts\node_modules\js-sdsl\dist\esm\container\TreeContainer\Base\index.js133143137586093115 0
 96C:\Users\USER\carts\node_modules\js-sdsl\dist\esm\container\TreeContainer\Base\TreeIterator.d.ts133143137585658543 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\e8133144631345170948 1
 92C:\Users\USER\carts\node_modules\js-sdsl\dist\esm\container\TreeContainer\Base\TreeNode.d.ts133143137585829377 0
 67C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\LICENSE133143141328766643 0
 90C:\Users\USER\carts\node_modules\js-sdsl\dist\esm\container\TreeContainer\Base\TreeNode.js133143137585896520 0
@@ -4727,7 +4735,7 @@
 81C:\Users\USER\carts\node_modules\htmlnano\lib\modules\normalizeAttributeValues.js133143141454796586 0
 75C:\Users\USER\carts\node_modules\htmlnano\lib\modules\removeOptionalTags.js133143141461475548 0
 72C:\Users\USER\carts\node_modules\htmlnano\lib\modules\removeUnusedCss.js133143141465900545 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\eb\ff917bbb78814ebf4685d6add10e6c8910ebd0133144625563140424 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\eb\ff917bbb78814ebf4685d6add10e6c8910ebd0133144632735905282 0
 71C:\Users\USER\carts\node_modules\htmlnano\lib\modules\sortAttributes.js133143141472993201 0
 57C:\Users\USER\carts\node_modules\@mischnic\json-sourcemap133143141350614224 1
 80C:\Users\USER\carts\node_modules\htmlnano\lib\modules\sortAttributesWithLists.js133143141475160770 0
@@ -4845,7 +4853,6 @@
 76C:\Users\USER\carts\node_modules\csso\lib\restructure\4-restructShorthand.js133143141353307142 0
 79C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\nested133143141582257346 1
 44C:\Users\USER\carts\node_modules\flatted\php133143137571325519 1
-112C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\loader.scss133144629151560832 0
 50C:\Users\USER\carts\node_modules\flatted\README.md133143137570774840 0
 56C:\Users\USER\carts\node_modules\flatted\php\flatted.php133143137571584668 0
 53C:\Users\USER\carts\node_modules\flatted\esm\index.js133143137566914113 0
@@ -4876,6 +4883,7 @@
 51C:\Users\USER\carts\node_modules\fill-range\LICENSE133143673822702445 0
 56C:\Users\USER\carts\node_modules\fill-range\package.json133143673821513219 0
 62C:\Users\USER\carts\node_modules\filenamify\filenamify-path.js133143194867246505 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\42\9d19d648ee8225aca808cfd0339fc822082b5b133144632730237435 0
 59C:\Users\USER\carts\node_modules\filenamify\filenamify.d.ts133143194868572538 0
 52C:\Users\USER\carts\node_modules\filenamify\index.js133143194867674934 0
 62C:\Users\USER\carts\node_modules\@parcel\fs\lib\browser.js.map133143141426844173 0
@@ -4984,7 +4992,6 @@
 64C:\Users\USER\carts\node_modules\caniuse-lite\data\regions\VG.js133143141819101607 0
 68C:\Users\USER\carts\node_modules\eslint-visitor-keys\dist\index.d.ts133143137569399755 0
 75C:\Users\USER\carts\node_modules\eslint-visitor-keys\dist\visitor-keys.d.ts133143137570093610 0
-112C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts\addCard.js133144629151530920 0
 78C:\Users\USER\carts\node_modules\css-tree\lib\definition-syntax\SyntaxError.js133143141632784591 0
 53C:\Users\USER\carts\node_modules\eslint-utils\LICENSE133143137560428934 0
 58C:\Users\USER\carts\node_modules\eslint-utils\package.json133143137564735214 0
@@ -5112,6 +5119,7 @@
 64C:\Users\USER\carts\node_modules\eslint\lib\rules\no-continue.js133143137587746288 0
 66C:\Users\USER\carts\node_modules\eslint\lib\rules\no-delete-var.js133143137587881595 0
 75C:\Users\USER\carts\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133143141586182257 0
+116C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.6eb45f27.css.map133144632735206162 0
 65C:\Users\USER\carts\node_modules\eslint\lib\rules\no-dupe-args.js133143137587938697 0
 68C:\Users\USER\carts\node_modules\eslint\lib\rules\no-dupe-else-if.js133143137588015079 0
 77C:\Users\USER\carts\node_modules\entities\lib\generated\decode-data-html.d.ts133143141440379754 0
@@ -5207,7 +5215,7 @@
 71C:\Users\USER\carts\node_modules\eslint\lib\rules\operator-linebreak.js133143137593141278 0
 69C:\Users\USER\carts\node_modules\caniuse-lite\data\features\path2d.js133143141778854145 0
 84C:\Users\USER\carts\node_modules\eslint\lib\rules\padding-line-between-statements.js133143137593257765 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\0c\5bf766d75a4ddaf354d393ece7bab56970b2a7133144625563175347 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\0c\5bf766d75a4ddaf354d393ece7bab56970b2a7133144632736026979 0
 65C:\Users\USER\carts\node_modules\eslint\lib\rules\prefer-const.js133143137593410715 0
 79C:\Users\USER\carts\node_modules\eslint\lib\rules\prefer-named-capture-group.js133143137593520630 0
 70C:\Users\USER\carts\node_modules\css-tree\lib\syntax\node\Dimension.js133143141489641357 0
@@ -5230,6 +5238,7 @@
 80C:\Users\USER\carts\node_modules\eslint\lib\rules\utils\lazy-loading-rule-map.js133143137585165234 0
 72C:\Users\USER\carts\node_modules\eslint\lib\rules\utils\unicode\index.js133143137584433816 0
 84C:\Users\USER\carts\node_modules\eslint\lib\rules\utils\unicode\is-emoji-modifier.js133143137584757073 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\6c133144632710710270 1
 95C:\Users\USER\carts\node_modules\eslint\lib\rules\utils\unicode\is-regional-indicator-symbol.js133143137584793591 0
 84C:\Users\USER\carts\node_modules\eslint\lib\rules\utils\unicode\is-surrogate-pair.js133143137584848228 0
 75C:\Users\USER\carts\node_modules\eslint\lib\rule-tester\flat-rule-tester.js133143137580586535 0
@@ -5316,6 +5325,7 @@
 60C:\Users\USER\carts\node_modules\email-addresses\.travis.yml133143194869210835 0
 54C:\Users\USER\carts\node_modules\async\setImmediate.js133143194874226888 0
 59C:\Users\USER\carts\node_modules\email-addresses\bower.json133143194868572538 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\31133144631345282146 1
 52C:\Users\USER\carts\node_modules\email-addresses\lib133143194869091143 1
 61C:\Users\USER\carts\node_modules\email-addresses\package.json133143194868692261 0
 58C:\Users\USER\carts\node_modules\email-addresses\README.md133143194869061235 0
@@ -5414,7 +5424,7 @@
 49C:\Users\USER\carts\node_modules\csso\lib\replace133143141505242562 1
 53C:\Users\USER\carts\node_modules\csso\lib\restructure133143141501762285 1
 50C:\Users\USER\carts\node_modules\csso\lib\usage.js133143141497227065 0
-130C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes\origin\master133144625558370904 0
+130C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes\origin\master133144632731039359 0
 73C:\Users\USER\carts\node_modules\csso\lib\restructure\3-disjoinRuleset.js133143141338898235 0
 72C:\Users\USER\carts\node_modules\csso\lib\restructure\6-restructBlock.js133143141365711624 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\7c\05f70e4b37ed04066e0e919f4d266a2d5a4d53133144616099596539 0
@@ -5549,7 +5559,7 @@
 72C:\Users\USER\carts\node_modules\caniuse-lite\data\features\gyroscope.js133143141728743352 0
 60C:\Users\USER\carts\node_modules\css-tree\lib\lexer\Lexer.js133143141569517869 0
 66C:\Users\USER\carts\node_modules\css-tree\lib\lexer\match-graph.js133143141575015395 0
-46C:\Users\USER\carts\dist\index.501c8203.js.map133144631163543562 0
+46C:\Users\USER\carts\dist\index.501c8203.js.map133144633161543845 0
 70C:\Users\USER\carts\node_modules\@parcel\resolver-default\package.json133143141376099588 0
 48C:\Users\USER\carts\node_modules\async\reduce.js133143194873588599 0
 79C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-unicode-bidi.js133143141689100650 0
@@ -5574,7 +5584,7 @@
 83C:\Users\USER\carts\node_modules\@babel\highlight\node_modules\ansi-styles\index.js133143141322575443 0
 63C:\Users\USER\carts\node_modules\css-select\lib\attributes.d.ts133143141457534082 0
 67C:\Users\USER\carts\node_modules\css-select\lib\attributes.d.ts.map133143141415289606 0
-118C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin133144629184541312 1
+118C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin133144632731059389 1
 61C:\Users\USER\carts\node_modules\css-select\lib\attributes.js133143141335684416 0
 64C:\Users\USER\carts\node_modules\css-select\lib\compile.d.ts.map133143141417618530 0
 57C:\Users\USER\carts\node_modules\ajv\lib\compile\equal.js133143137577125687 0
@@ -5980,6 +5990,7 @@
 77C:\Users\USER\carts\node_modules\@parcel\workers\src\threads\ThreadsWorker.js133143141480318284 0
 73C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-canvas.js133143141648793296 0
 83C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-case-insensitive.js133143141651198614 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\63133144632717336138 1
 76C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-clip-path.js133143141652237977 0
 79C:\Users\USER\carts\node_modules\@babel\highlight\node_modules\has-flag\license133143141329764515 0
 79C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-color-adjust.js133143141652642235 0
@@ -6058,6 +6069,7 @@
 83C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-text-orientation.js133143141687407171 0
 67C:\Users\USER\carts\node_modules\@parcel\reporter-cli\src\render.js133143141418492761 0
 77C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-textshadow.js133143141688442861 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\6c\ff57bc94dd27acf8febda7e279e48d5c0fbf24133144632710686887 0
 65C:\Users\USER\carts\node_modules\@parcel\optimizer-terser\LICENSE133143141361051779 0
 76C:\Users\USER\carts\node_modules\caniuse-lite\data\features\css-when-else.js133143141689695696 0
 139C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\bar\package.json133143141631769373 0
@@ -6089,6 +6101,7 @@
 75C:\Users\USER\carts\node_modules\caniuse-lite\data\features\documenthead.js133143141698900151 0
 72C:\Users\USER\carts\node_modules\caniuse-lite\data\features\dommatrix.js133143141700428727 0
 71C:\Users\USER\carts\node_modules\caniuse-lite\data\features\download.js133143141701870647 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\d7\e689ba1d5b460afc0a9b40d4580c261e65229d133144632715278409 0
 72C:\Users\USER\carts\node_modules\caniuse-lite\data\features\dragndrop.js133143141702284341 0
 81C:\Users\USER\carts\node_modules\caniuse-lite\data\features\element-from-point.js133143141706162942 0
 66C:\Users\USER\carts\node_modules\caniuse-lite\data\features\eme.js133143141707513137 0
@@ -6201,7 +6214,7 @@
 63C:\Users\USER\carts\node_modules\@parcel\utils\src\ansi-html.js133143141394564863 0
 73C:\Users\USER\carts\node_modules\@swc\helpers\lib\_array_like_to_array.js133143141332598038 0
 87C:\Users\USER\carts\node_modules\caniuse-lite\data\features\mdn-text-decoration-line.js133143141757349863 0
-118C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\heads\gh-pages133144628691503223 0
+118C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\heads\gh-pages133144631345309597 0
 92C:\Users\USER\carts\node_modules\caniuse-lite\data\features\mdn-text-decoration-shorthand.js133143141757429202 0
 87C:\Users\USER\carts\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js133143141759276995 0
 76C:\Users\USER\carts\node_modules\caniuse-lite\data\features\mediarecorder.js133143141759357038 0
@@ -6237,7 +6250,7 @@
 61C:\Users\USER\carts\node_modules\@parcel\transformer-json\src133143141358512038 1
 76C:\Users\USER\carts\node_modules\caniuse-lite\data\features\passwordrules.js133143141778365455 0
 78C:\Users\USER\carts\node_modules\caniuse-lite\data\features\payment-request.js133143141778874102 0
-108C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\ORIG_HEAD133144629149975319 0
+108C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\ORIG_HEAD133144632734322479 0
 78C:\Users\USER\carts\node_modules\caniuse-lite\data\features\permissions-api.js133143141779871934 0
 81C:\Users\USER\carts\node_modules\caniuse-lite\data\features\picture-in-picture.js133143141783438401 0
 70C:\Users\USER\carts\node_modules\caniuse-lite\data\features\picture.js133143141784029358 0
@@ -6310,7 +6323,7 @@
 73C:\Users\USER\carts\node_modules\caniuse-lite\data\features\use-strict.js133143141816854998 0
 71C:\Users\USER\carts\node_modules\@parcel\transformer-babel\src\types.js133143141437839845 0
 74C:\Users\USER\carts\node_modules\caniuse-lite\data\features\user-timing.js133143141817033385 0
-123C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\heads\gh-pages133144628691513198 0
+123C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\heads\gh-pages133144631345319557 0
 83C:\Users\USER\carts\node_modules\@swc\helpers\lib\_class_apply_descriptor_update.js133143141414862803 0
 68C:\Users\USER\carts\node_modules\caniuse-lite\data\features\video.js133143141819482402 0
 67C:\Users\USER\carts\node_modules\@swc\helpers\lib\_object_spread.js133143141542701311 0
@@ -6379,7 +6392,7 @@
 55C:\Users\USER\carts\node_modules\balanced-match\.github133143137566221381 1
 56C:\Users\USER\carts\node_modules\balanced-match\index.js133143137560237449 0
 60C:\Users\USER\carts\node_modules\balanced-match\package.json133143137561935042 0
-46C:\Users\USER\carts\dist\index.a991a3b3.js.map133144631163543562 0
+46C:\Users\USER\carts\dist\index.a991a3b3.js.map133144633161543845 0
 45C:\Users\USER\carts\node_modules\async\all.js133143194867276424 0
 50C:\Users\USER\carts\node_modules\async\anyLimit.js133143194868213509 0
 47C:\Users\USER\carts\node_modules\async\apply.js133143194868582522 0
@@ -6439,6 +6452,7 @@
 51C:\Users\USER\carts\node_modules\async\someLimit.js133143194874356537 0
 52C:\Users\USER\carts\node_modules\async\someSeries.js133143194874376492 0
 49C:\Users\USER\carts\node_modules\async\timeout.js133143194874526132 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\57133144632717665624 1
 52C:\Users\USER\carts\node_modules\async\timesLimit.js133143194874595918 0
 53C:\Users\USER\carts\node_modules\async\timesSeries.js133143194874635793 0
 51C:\Users\USER\carts\node_modules\async\transform.js133143194874685663 0
@@ -6626,6 +6640,7 @@
 66C:\Users\USER\carts\node_modules\@swc\helpers\src\_await_value.mjs133143141610363082 0
 66C:\Users\USER\carts\node_modules\@lmdb\lmdb-win32-x64\package.json133143141328474833 0
 82C:\Users\USER\carts\node_modules\@swc\helpers\src\_check_private_redeclaration.mjs133143141610513431 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\c8133144632730214851 1
 89C:\Users\USER\carts\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs133143141612900163 0
 80C:\Users\USER\carts\node_modules\@swc\helpers\src\_class_private_method_init.mjs133143141631506035 0
 84C:\Users\USER\carts\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs133143141619636650 0
@@ -6660,7 +6675,7 @@
 71C:\Users\USER\carts\node_modules\@swc\helpers\src\_set_prototype_of.mjs133143141657026480 0
 80C:\Users\USER\carts\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs133143141657630728 0
 76C:\Users\USER\carts\node_modules\@swc\helpers\src\_sliced_to_array_loose.mjs133143141658171006 0
-43C:\Users\USER\carts\dist\index.6eb45f27.css133144631163328759 0
+43C:\Users\USER\carts\dist\index.6eb45f27.css133144633160949041 0
 70C:\Users\USER\carts\node_modules\@swc\helpers\src\_super_prop_base.mjs133143141658604217 0
 78C:\Users\USER\carts\node_modules\@swc\helpers\src\_tagged_template_literal.mjs133143141658747750 0
 84C:\Users\USER\carts\node_modules\@swc\helpers\src\_tagged_template_literal_loose.mjs133143141659051901 0
@@ -7162,6 +7177,7 @@
 120C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-exclude\package.json133143141603809675 0
 110C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\browser.js133143141413127697 0
 112C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\package.json133143141606615549 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\d8133144632717721623 1
 98C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\index.js133143141475160770 0
 96C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\nested133143141410431481 1
 103C:\Users\USER\carts\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\nested\baz.js133143141410431481 0
@@ -7198,7 +7214,7 @@
 67C:\Users\USER\carts\node_modules\@parcel\codeframe\lib\codeframe.js133143141473894233 0
 51C:\Users\USER\carts\node_modules\@parcel\graph\test133143141417393530 1
 73C:\Users\USER\carts\node_modules\@parcel\graph\test\AdjacencyList.test.js133143141392250996 0
-105C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\config133144629153230596 0
+105C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\config133144632736832842 0
 65C:\Users\USER\carts\node_modules\@parcel\graph\test\Graph.test.js133143141419518087 0
 94C:\Users\USER\carts\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js133143141344999496 0
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\5c133144625514693655 1
@@ -7363,7 +7379,7 @@
 55C:\Users\USER\carts\node_modules\@parcel\codeframe\test133143141480283144 1
 67C:\Users\USER\carts\node_modules\@parcel\codeframe\src\codeframe.js133143141476517106 0
 54C:\Users\USER\carts\node_modules\@parcel\cache\LICENSE133143141336306177 0
-113C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\COMMIT_EDITMSG133144628691382053 0
+113C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\COMMIT_EDITMSG133144631345224812 0
 59C:\Users\USER\carts\node_modules\@parcel\cache\package.json133143141415127898 0
 63C:\Users\USER\carts\node_modules\@parcel\cache\src\LMDBCache.js133143141401746465 0
 61C:\Users\USER\carts\node_modules\@parcel\cache\lib\types.d.ts133143141421748262 0
@@ -7378,7 +7394,7 @@
 67C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\settings.d.ts133143137574652080 0
 65C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\settings.js133143137571054691 0
 59C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\types133143137574401486 1
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\FETCH_HEAD133144629141383956 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\FETCH_HEAD133144632731094487 0
 70C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\types\index.d.ts133143137574436049 0
 68C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\types\index.js133143137570062777 0
 70C:\Users\USER\carts\node_modules\@nodelib\fs.walk\out\readers\async.js133143137565374236 0
@@ -7463,7 +7479,7 @@
 90C:\Users\USER\carts\node_modules\@jridgewell\gen-mapping\dist\types\sourcemap-segment.d.ts133143141391762296 0
 103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\93133144607785392665 1
 63C:\Users\USER\carts\node_modules\@humanwhocodes\module-importer133143137570197737 1
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\49133144625557118741 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\49133144632715352849 1
 69C:\Users\USER\carts\node_modules\@humanwhocodes\object-schema\LICENSE133143137560329573 0
 67C:\Users\USER\carts\node_modules\@humanwhocodes\object-schema\tests133143137570295710 1
 85C:\Users\USER\carts\node_modules\@humanwhocodes\object-schema\tests\merge-strategy.js133143137566928445 0
@@ -7525,7 +7541,7 @@
 82C:\Users\USER\carts\node_modules\@babel\helper-validator-identifier\lib\keyword.js133143141371763698 0
 63C:\Users\USER\carts\node_modules\@babel\code-frame\lib\index.js133143141330843520 0
 48C:\Users\USER\carts\node_modules\.cache\gh-pages133144623087411894 1
-93C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git133144629151372544 1
+93C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git133144632735206162 1
 87C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git133144616099059038 1
 106C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\index.6eb45f27.css133144616099102043 0
 110C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\index.6eb45f27.css.map133144616099102043 0
@@ -7572,7 +7588,7 @@
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\ef\bb252298512fde961ad44471cfa9cf2599d930133143205412465462 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\eb\ff917bbb78814ebf4685d6add10e6c8910ebd0133144616099596539 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\ea\a2cc86c10680d1138d2ffb442a44e3629ba162133144607783816001 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\7c\05f70e4b37ed04066e0e919f4d266a2d5a4d53133144625563153320 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\7c\05f70e4b37ed04066e0e919f4d266a2d5a4d53133144632735905282 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391133144612604866406 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\dd\d25da60c5d9cec4d8c6b7605230b55fc7c4ef8133144612592441530 0
 142C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\objects\d8\8954f0e847265bb6cfb7d6e8c6a9f7ad366f42133144611666765703 0
@@ -7609,52 +7625,59 @@
 126C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\logs\refs\remotes\origin\gh-pages133144615597655821 0
 105C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\info\exclude133143200183717178 0
 120C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cart.git\.git\hooks\pre-applypatch.sample133143200183717178 0
-98C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git133144629153240581 1
-100C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles133144629151428309 1
-110C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\card.scss133144629151550861 0
-115C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\container.scss133144629151550861 0
-111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\styles\modal.scss133144629151560832 0
-115C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts\addAllCard.js133144629151520942 0
-113C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts\clearAll.js133144629151530920 0
-115C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts\deleteCard.js133144629151530920 0
-110C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\scripts\index.js133144629151540887 0
-103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\HEAD133144629148166724 0
+98C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git133144632736848566 1
+111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.501c8203.js133144632735154505 0
+115C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.501c8203.js.map133144632735154505 0
+112C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.6eb45f27.css133144632735206162 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\92\47e75eddeb0225355e653232c48abc1f2dafce133144625557358523 0
+111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\index.a991a3b3.js133144632735154505 0
+103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\HEAD133144632733468735 0
 103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs133144623112479389 1
-106C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects133144629144045645 1
+106C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects133144632731398247 1
 103C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs133144623112303088 1
 111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes133144623112303088 1
-125C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin\master133144625558360920 0
+125C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\refs\remotes\origin\master133144632731022717 0
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\42133144632730247771 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\5e133144625516258721 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\8f133144625516058199 1
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\92133144625557521914 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\92133144632710778148 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\94133144628691455464 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\9c133144625557071903 1
 126C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\hooks\applypatch-msg.sample133144623087486958 0
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\a1133144625516187811 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\a1133144632715001691 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\aa133144623147782125 1
-109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\b4133144625514460485 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\b4133144632710747380 1
 109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\b6133144625515675642 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\bf133144632730173257 1
+109C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\e1133144632717625912 1
 111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\info133144623087959094 1
 162C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\pack\pack-a41579756e1180805552c0467d108383394ee7bb.pack133144629152429425 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\fe\4518299ca13f37a4c2e90b99895645a6883bb5133144625563185317 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\fe\4518299ca13f37a4c2e90b99895645a6883bb5133144632736026979 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\e8\80c74c874252bc3f18f2e9b3d38784384d6443133144631345146854 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\e2\0ec0a54cb28b015f79726ce6a3f24fd0835ea5133144625557689974 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\e1\0d14eec481ad63d85eb7307c42ac949371ce9b133144632717570069 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\d8\cf30db19df634438da3b3f7323c5a9be6489bb133144632717711639 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\d3\7a8be9d9665dea2c79fa0232202f9574f48df4133144625556729909 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\b4\a05b014a78d7495871afa1c5d8fe19fa768916133144625514395959 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\a1\f9ac63bcee2c3701687e71ffffcf120fb63df2133144632714935385 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\94\49d774d68b058f91299472fd24d13a53bb1b29133144628691425543 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\92\47e75eddeb0225355e653232c48abc1f2dafce133144625557358523 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\8f\5a590ff16d237f173d790cc507f0d57186face133144625516035442 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\88\0f6fec216fd8400264b58c7e9fb8bdd5844820133144625563195294 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\88\0f6fec216fd8400264b58c7e9fb8bdd5844820133144632736044159 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\6a\9b36f4f3e05e6287cdd84325827628d9949c0f133144625515436013 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\67\860c59862971c48cf2d309657c3b42615b554c133144632715238092 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\63\48b170b4a6c0a82282e860dd885db19ca5d6ac133144632717222691 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\57\7ba965c01e2b49299302a5c979f5edd203b623133144632717634837 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\51\965a53a8edaab1f7f42107439cfc9580f8399f133144625514327619 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\4f\504afa4d0a2b2072d02da845758449d2b1f68c133144625516104895 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\44\8db6ada898d2c0d1e380bd87864d45b727387a133144625516560645 0
-148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\16\4fa6d20b9a212872fe2975ba022192f4ab66bc133144625563140424 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\1f\9fdc6f26ef21ac2a8829b28aae4b3d671653d2133144632714631222 0
+148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\16\4fa6d20b9a212872fe2975ba022192f4ab66bc133144632735877636 0
 148C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\objects\16\e5edf913c69d0bed1cfae1978d66846b40a103133144625514460485 0
-108C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\HEAD133144629150061752 0
+108C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\HEAD133144632734394035 0
 116C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes133144623112360760 1
 57C:\Users\USER\carts\node_modules\.bin\node-gyp-build-test133143141874980356 0
 123C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes\origin133144625558360920 1
-132C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes\origin\gh-pages133144628721429828 0
+132C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\remotes\origin\gh-pages133144631370337076 0
 121C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\logs\refs\heads\master133144623112542069 0
 111C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\info\exclude133144623087651156 0
 126C:\Users\USER\carts\node_modules\.cache\gh-pages\git@github.com!Maxim-Gumeniuk!cards-test.git\.git\hooks\pre-applypatch.sample133144623087523232 0
@@ -7686,6 +7709,6 @@
 42C:\Users\USER\carts\node_modules\.bin\svgo133143141874980356 0
 46C:\Users\USER\carts\node_modules\.bin\svgo.cmd133143141874980356 0
 44C:\Users\USER\carts\node_modules\.bin\terser133143141876304204 0
-47C:\Users\USER\carts\dist\index.6eb45f27.css.map133144631163543562 0
-42C:\Users\USER\carts\dist\index.a991a3b3.js133144631163328759 0
-35C:\Users\USER\carts\dist\index.html133144631163268847 0
+47C:\Users\USER\carts\dist\index.6eb45f27.css.map133144633161543845 0
+42C:\Users\USER\carts\dist\index.a991a3b3.js133144633160949041 0
+35C:\Users\USER\carts\dist\index.html133144633160949041 0

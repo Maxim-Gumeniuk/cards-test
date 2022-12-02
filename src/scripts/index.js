@@ -10,8 +10,6 @@ const clearButton = document.getElementById('clear');
 export const card = document.getElementsByClassName('card');
 export const addAll = document.getElementById('addAll');
 
-
-
 addButon.addEventListener('click',addCart);
 
 deleteButton.addEventListener('click', deleteCard);
@@ -19,3 +17,11 @@ deleteButton.addEventListener('click', deleteCard);
 clearButton.addEventListener('click', clearAll);
 
 addAll.addEventListener('change', addAllCart);
+
+
+//function addAllCart() {
+//  do {
+//    addCart();
+//    container.offsetHeight - (container.childElementCount * 250);
+//  } while(container.offsetHeight > 0);
+//}

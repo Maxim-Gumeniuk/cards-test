@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "parcel src/index.html --open --port 3000",
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
