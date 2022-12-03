@@ -65,8 +65,8 @@ input[type="checkbox"]:before {
 
 .card {
   min-width: 280px;
+  height: 350px;
   max-width: 350px;
-  max-height: 340px;
   text-align: center;
   text-align: center;
   background-color: #f6f6f6;
@@ -103,7 +103,6 @@ input[type="checkbox"]:before {
   background-color: #0000;
   border: 1px solid #787070;
   border-radius: 20px;
-  margin-bottom: 20px;
 }
 
 .modal {
@@ -140,7 +139,7 @@ input[type="checkbox"]:before {
 
 .container {
   max-width: 1200px;
-  min-height: 100%;
+  height: 100%;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;

@@ -10,7 +10,7 @@ export function addCart() {
   const moreInfo = document.createElement('button');
   const textModal = document.getElementById('content-modal');
 
-  
+  moreInfo.style.display = 'none';
   input.addEventListener('keypress', function(event) {
   
     if (!input.value) {
@@ -22,6 +22,7 @@ export function addCart() {
       text.innerText= input.value;
       input.classList.toggle('none');
       addText.classList.toggle('none');
+      moreInfo.style.display = 'block';
     }
   });
   
@@ -34,6 +35,7 @@ export function addCart() {
     text.innerText= input.value;
     input.classList.toggle('none');
     addText.classList.toggle('none');
+    moreInfo.style.display = 'block';
   });
     
   deleteCard.addEventListener('click', function() {
@@ -45,8 +47,11 @@ export function addCart() {
     textModal.appendChild(close);
     modal.style.display = 'block';
   });
- 
 
+  if (input.value) {
+    moreInfo.style.display = 'block';
+  }
+ 
   text.className = 'none';
   addText.innerText = 'добавить текст';
   addText.className = 'button';

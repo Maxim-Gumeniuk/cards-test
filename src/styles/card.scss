@@ -2,8 +2,8 @@
 
 .card {
   min-width: 280px;
+  height: 350px;
   max-width: $max-width-on-card;
-  max-height: $max-height-on-card;
   text-align: center;
   border: 1px solid #787070;
   border-radius: 10px;
@@ -40,5 +40,4 @@
   background-color: transparent;
   border: 1px solid #787070;
   border-radius: 20px;
-  margin-bottom: 20px;
 }

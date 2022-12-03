@@ -579,6 +579,7 @@ function addCart() {
     const deleteCard = document.createElement("button");
     const moreInfo = document.createElement("button");
     const textModal = document.getElementById("content-modal");
+    moreInfo.style.display = "none";
     input.addEventListener("keypress", function(event) {
         if (!input.value) {
             input.placeholder = "please write something";
@@ -589,6 +590,7 @@ function addCart() {
             text.innerText = input.value;
             input.classList.toggle("none");
             addText.classList.toggle("none");
+            moreInfo.style.display = "block";
         }
     });
     addText.addEventListener("click", ()=>{
@@ -600,6 +602,7 @@ function addCart() {
         text.innerText = input.value;
         input.classList.toggle("none");
         addText.classList.toggle("none");
+        moreInfo.style.display = "block";
     });
     deleteCard.addEventListener("click", function() {
         newCard.remove();
@@ -609,6 +612,7 @@ function addCart() {
         textModal.appendChild((0, _index.close));
         (0, _index.modal).style.display = "block";
     });
+    if (input.value) moreInfo.style.display = "block";
     text.className = "none";
     addText.innerText = "добавить текст";
     addText.className = "button";
@@ -687,7 +691,6 @@ var _addAllCard = require("./addAllCard");
 function clearAll() {
     while((0, _index.container).children.length > 1)(0, _index.container).removeChild(...(0, _index.card));
     (0, _index.addAll).disabled = true;
-    (0, _index.addAll).style.checked.background = "f3f3f3";
     window.removeEventListener("scroll", (0, _addAllCard.scroll), false);
 }
 
@@ -699,10 +702,10 @@ var _addCard = require("./addCard");
 var _index = require("./index");
 var _onScroll = require("./onScroll");
 function addAllCart() {
-    let i = (0, _index.container).offsetWidth * (0, _index.container).offsetHeight;
+    let i = document.documentElement.offsetWidth * document.documentElement.offsetHeight;
     while(i >= 0){
         (0, _addCard.addCart)();
-        i -= (0, _index.container).childElementCount * (0, _index.container).childElementCount * (0, _index.container).children[0].offsetHeight * (0, _index.container).children[0].offsetWidth;
+        i -= (0, _index.container).childElementCount * (0, _index.container).childElementCount * (0, _index.container).children[0].offsetWidth * 30;
     }
     window.addEventListener("scroll", (0, _onScroll.scroll));
     (0, _index.addAll).disabled = true;
