@@ -537,11 +537,15 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "container", ()=>container);
 parcelHelpers.export(exports, "card", ()=>card);
 parcelHelpers.export(exports, "addAll", ()=>addAll);
-parcelHelpers.export(exports, "state", ()=>state);
+parcelHelpers.export(exports, "modal", ()=>modal);
+parcelHelpers.export(exports, "close", ()=>close);
+parcelHelpers.export(exports, "textModal", ()=>textModal);
+parcelHelpers.export(exports, "text", ()=>text);
 var _addCard = require("./addCard");
 var _deleteCard = require("./deleteCard");
 var _clearAll = require("./clearAll");
 var _addAllCard = require("./addAllCard");
+var _modal = require("./modal");
 const addButon = document.getElementById("add");
 const deleteButton = document.getElementById("delete");
 const container = [
@@ -550,13 +554,18 @@ const container = [
 const clearButton = document.getElementById("clear");
 const card = document.getElementsByClassName("card");
 const addAll = document.getElementById("addAll");
-let state = true;
+const modal = document.getElementById("myModal");
+const close = document.getElementById("close");
+const textModal = document.getElementById("content-modal");
+const text = document.createElement("p");
 addButon.addEventListener("click", (0, _addCard.addCart));
 deleteButton.addEventListener("click", (0, _deleteCard.deleteCard));
 clearButton.addEventListener("click", (0, _clearAll.clearAll));
 addAll.addEventListener("change", (0, _addAllCard.addAllCart));
+window.addEventListener("click", (0, _modal.closest));
+close.addEventListener("click", (0, _modal.modalNone));
 
-},{"./addCard":"8JDnc","./deleteCard":"cBXmk","./clearAll":"brQ6N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addAllCard":"fMGtd"}],"8JDnc":[function(require,module,exports) {
+},{"./addCard":"8JDnc","./deleteCard":"cBXmk","./clearAll":"brQ6N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addAllCard":"fMGtd","./modal":"1hEIt"}],"8JDnc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addCart", ()=>addCart);
@@ -565,27 +574,14 @@ function addCart() {
     const newCard = document.createElement("div");
     const title = document.createElement("h2");
     const input = document.createElement("input");
-    const moreInfo = document.createElement("button");
-    const deleteCard = document.createElement("button");
     const text = document.createElement("p");
-    const modal = document.getElementById("myModal");
-    const close = document.getElementById("close");
-    const textModal = document.getElementById("content-modal");
     const addText = document.createElement("button");
-    text.className = "none";
-    addText.innerText = "добавить текст";
-    addText.className = "button";
-    deleteCard.className = "button";
-    deleteCard.innerText = "Удалить";
-    input.className = "input";
-    input.innerText = input.value;
-    input.placeholder = "type something";
-    deleteCard.addEventListener("click", function() {
-        newCard.remove();
-    });
+    const deleteCard = document.createElement("button");
+    const moreInfo = document.createElement("button");
+    const textModal = document.getElementById("content-modal");
     input.addEventListener("keypress", function(event) {
         if (!input.value) {
-            input.placeholder = "tttt";
+            input.placeholder = "please write something";
             return;
         }
         if (event.key === "Enter") {
@@ -605,26 +601,30 @@ function addCart() {
         input.classList.toggle("none");
         addText.classList.toggle("none");
     });
+    deleteCard.addEventListener("click", function() {
+        newCard.remove();
+    });
+    moreInfo.addEventListener("click", function() {
+        textModal.innerText = text.innerText;
+        textModal.appendChild((0, _index.close));
+        (0, _index.modal).style.display = "block";
+    });
+    text.className = "none";
+    addText.innerText = "добавить текст";
+    addText.className = "button";
+    deleteCard.className = "button";
+    deleteCard.innerText = "Удалить";
+    input.className = "input";
+    input.innerText = input.value;
+    input.placeholder = "type something";
     title.innerText = "card title";
     title.className = "card__title";
     moreInfo.className = "button";
     moreInfo.innerText = "Подробнее";
-    moreInfo.addEventListener("click", function() {
-        textModal.innerText = text.innerText;
-        textModal.appendChild(close);
-        modal.style.display = "block";
-    });
-    window.addEventListener("click", function() {
-        if (this.event.target === modal) modal.style.display = "none";
-    });
-    close.addEventListener("click", function() {
-        modal.style.display = "none";
-    });
     newCard.className = "loader";
     (0, _index.container).appendChild(newCard);
     const children = (0, _index.container).children;
-    let totalWidth = 300;
-    console.log((0, _index.container).children[0].offsetWidth);
+    let totalWidth = (0, _index.container).children[0].offsetWidth;
     for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
     if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
     setTimeout(()=>{
@@ -695,24 +695,48 @@ function clearAll() {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addAllCart", ()=>addAllCart);
-parcelHelpers.export(exports, "scroll", ()=>scroll);
 var _addCard = require("./addCard");
 var _index = require("./index");
+var _onScroll = require("./onScroll");
 function addAllCart() {
     let i = (0, _index.container).offsetWidth * (0, _index.container).offsetHeight;
     while(i >= 0){
         (0, _addCard.addCart)();
-        i -= (0, _index.container).childElementCount * 2500;
+        i -= (0, _index.container).childElementCount * (0, _index.container).childElementCount * (0, _index.container).children[0].offsetHeight * (0, _index.container).children[0].offsetWidth;
     }
-    window.addEventListener("scroll", scroll);
+    window.addEventListener("scroll", (0, _onScroll.scroll));
     (0, _index.addAll).disabled = true;
 }
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addCard":"8JDnc","./index":"fFaKF","./onScroll":"aBZJY"}],"aBZJY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "scroll", ()=>scroll);
 function scroll() {
     const documentRect = document.documentElement.getBoundingClientRect();
-    if ((0, _index.container).offsetWidth > 650 && documentRect.bottom < (0, _index.container).clientHeight + 20) (0, _addCard.addCart)();
-    else if (documentRect.right < (0, _index.container).offsetWidth + 20) (0, _addCard.addCart)();
+    if (container.offsetWidth > 650 && documentRect.bottom < container.clientHeight + 20) addCart();
+    else if (documentRect.right < container.offsetWidth + 20) addCart();
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addCard":"8JDnc","./index":"fFaKF"}]},["j98HG","fFaKF"], "fFaKF", "parcelRequire015d")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1hEIt":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "closest", ()=>closest);
+parcelHelpers.export(exports, "modalNone", ()=>modalNone);
+parcelHelpers.export(exports, "seeMoreInfo", ()=>seeMoreInfo);
+var _index = require("./index");
+function closest() {
+    if (this.event.target === (0, _index.modal)) (0, _index.modal).style.display = "none";
+}
+function modalNone() {
+    (0, _index.modal).style.display = "none";
+}
+function seeMoreInfo() {
+    (0, _index.textModal).innerText = (0, _index.text).innerText;
+    (0, _index.textModal).appendChild((0, _index.close));
+    (0, _index.modal).style.display = "block";
+}
+
+},{"./index":"fFaKF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["j98HG","fFaKF"], "fFaKF", "parcelRequire015d")
 
 //# sourceMappingURL=index.0fbc91cd.js.map

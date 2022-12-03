@@ -1,15 +1,19 @@
+@import './var.scss';
+
 .card {
   min-width: 280px;
-  max-height: 340px;
+  max-width: $max-width-on-card;
+  max-height: $max-height-on-card;
   text-align: center;
   border: 1px solid #787070;
   border-radius: 10px;
   padding: 0px 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
-  background-color: #f6f6f6;
+  background-color:$color-of-card;
 
   &__title {
     text-transform: uppercase;

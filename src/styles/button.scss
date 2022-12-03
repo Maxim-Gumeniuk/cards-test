@@ -1,9 +1,12 @@
+@import './mixins';
+@import './placeholder.scss';
+
 .button-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 20px 0;
 
-  @media (max-width: 650px) {
+  @include onPhone {
     flex-direction: column;
   }
 }
@@ -45,15 +48,13 @@ input[type="checkbox"] {
   border: 1px solid rgb(169, 160, 160);
   border-radius: 20px;
   padding: 5px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-box;
   margin-right: 10px;
   margin-bottom: 10px;
   min-width: 120px;
 
-  @media (max-width: 650px) {
-    padding: 10px 25px;
-    min-width: 40px;
-  }
+    @include onPhone {
+      padding: 10px 25px;
+      min-width: 40px;
+    }
 }
