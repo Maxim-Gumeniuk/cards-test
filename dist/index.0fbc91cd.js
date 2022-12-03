@@ -575,10 +575,6 @@ function addCart() {
     text.className = "none";
     addText.innerText = "добавить текст";
     addText.className = "button";
-    const children = (0, _index.container).children;
-    let totalWidth = 300;
-    for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
-    if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
     deleteCard.className = "deleteCard";
     deleteCard.innerText = "Удалить";
     input.className = "input";
@@ -624,6 +620,7 @@ function addCart() {
         modal.style.display = "none";
     });
     newCard.className = "loader";
+    (0, _index.container).appendChild(newCard);
     setTimeout(()=>{
         newCard.className = "card";
         newCard.appendChild(title);
@@ -633,7 +630,10 @@ function addCart() {
         newCard.appendChild(moreInfo);
         newCard.appendChild(deleteCard);
     }, 3000);
-    (0, _index.container).appendChild(newCard);
+    const children = (0, _index.container).children;
+    let totalWidth = 300;
+    for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
+    if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./index":"fFaKF"}],"gkKU3":[function(require,module,exports) {

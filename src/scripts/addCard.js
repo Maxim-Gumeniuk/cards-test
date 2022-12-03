@@ -15,17 +15,7 @@ export function addCart() {
   text.className = 'none';
   addText.innerText = 'добавить текст';
   addText.className = 'button';
-  const children = container.children;
-  let totalWidth = 300;
-
-  for (let i = 0; i < children.length; i++) {
-    totalWidth += parseInt(children[i].offsetWidth, 10);
-  }
-
-  if (container.clientWidth - totalWidth < 0) {
-    container.style.justifyContent = 'start';
-  }
-
+ 
   deleteCard.className = 'deleteCard';
   deleteCard.innerText = 'Удалить';
 
@@ -84,6 +74,8 @@ export function addCart() {
   });
 
   newCard.className = 'loader';
+  container.appendChild(newCard);
+
   setTimeout(() => {
     newCard.className = 'card';
     newCard.appendChild(title);
@@ -94,5 +86,14 @@ export function addCart() {
     newCard.appendChild(deleteCard);
   }, 3000);
 
-  container.appendChild(newCard);
+  const children = container.children;
+  let totalWidth = 300;
+
+  for (let i = 0; i < children.length; i++) {
+    totalWidth += parseInt(children[i].offsetWidth, 10);
+  }
+
+  if (container.clientWidth - totalWidth < 0) {
+    container.style.justifyContent = 'start';
+  }
 }
