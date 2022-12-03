@@ -712,13 +712,15 @@ function addAllCart() {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "scroll", ()=>scroll);
+var _index = require("./index");
+var _addCard = require("./addCard");
 function scroll() {
     const documentRect = document.documentElement.getBoundingClientRect();
-    if (container.offsetWidth > 650 && documentRect.bottom < container.clientHeight + 20) addCart();
-    else if (documentRect.right < container.offsetWidth + 20) addCart();
+    if ((0, _index.container).offsetWidth > 650 && documentRect.bottom < (0, _index.container).clientHeight + 20) (0, _addCard.addCart)();
+    else if (documentRect.right < (0, _index.container).offsetWidth + 20) (0, _addCard.addCart)();
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1hEIt":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./index":"fFaKF","./addCard":"8JDnc"}],"1hEIt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "closest", ()=>closest);

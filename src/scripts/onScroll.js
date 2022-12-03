@@ -1,3 +1,6 @@
+import { container } from './index';
+import { addCart } from './addCard';
+
 export function scroll() {
   const documentRect = document.documentElement.getBoundingClientRect();
     
@@ -7,3 +10,4 @@ export function scroll() {
     addCart();
   }
 }
+
