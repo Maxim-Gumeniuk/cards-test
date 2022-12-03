@@ -537,6 +537,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "container", ()=>container);
 parcelHelpers.export(exports, "card", ()=>card);
 parcelHelpers.export(exports, "addAll", ()=>addAll);
+parcelHelpers.export(exports, "state", ()=>state);
 var _addCard = require("./addCard");
 var _deleteCard = require("./deleteCard");
 var _clearAll = require("./clearAll");
@@ -549,15 +550,11 @@ const container = [
 const clearButton = document.getElementById("clear");
 const card = document.getElementsByClassName("card");
 const addAll = document.getElementById("addAll");
+let state = true;
 addButon.addEventListener("click", (0, _addCard.addCart));
 deleteButton.addEventListener("click", (0, _deleteCard.deleteCard));
 clearButton.addEventListener("click", (0, _clearAll.clearAll));
-addAll.addEventListener("change", (0, _addAllCard.addAllCart)); //function addAllCart() {
- //  do {
- //    addCart();
- //    container.offsetHeight - (container.childElementCount * 250);
- //  } while(container.offsetHeight > 0);
- //}
+addAll.addEventListener("change", (0, _addAllCard.addAllCart));
 
 },{"./addCard":"8JDnc","./deleteCard":"cBXmk","./clearAll":"brQ6N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addAllCard":"fMGtd"}],"8JDnc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -574,20 +571,39 @@ function addCart() {
     const modal = document.getElementById("myModal");
     const close = document.getElementById("close");
     const textModal = document.getElementById("content-modal");
+    const addText = document.createElement("button");
     text.className = "none";
+    addText.innerText = "добавить текст";
+    addText.className = "button";
     deleteCard.className = "deleteCard";
     deleteCard.innerText = "Удалить";
     input.className = "input";
     input.innerText = input.value;
+    input.placeholder = "type something";
     deleteCard.addEventListener("click", function() {
         newCard.remove();
     });
     input.addEventListener("keypress", function(event) {
+        if (!input.value) {
+            input.placeholder = "type";
+            return;
+        }
         if (event.key === "Enter") {
             text.classList.toggle("text");
             text.innerText = input.value;
             input.classList.toggle("none");
+            addText.classList.toggle("none");
         }
+    });
+    addText.addEventListener("click", ()=>{
+        if (!input.value) {
+            input.placeholder = "type";
+            return;
+        }
+        text.classList.toggle("text");
+        text.innerText = input.value;
+        input.classList.toggle("none");
+        addText.classList.toggle("none");
     });
     title.innerText = "card title";
     moreInfo.className = "more-info";
@@ -604,15 +620,20 @@ function addCart() {
         modal.style.display = "none";
     });
     newCard.className = "loader";
+    (0, _index.container).appendChild(newCard);
     setTimeout(()=>{
         newCard.className = "card";
         newCard.appendChild(title);
         newCard.appendChild(input);
+        newCard.appendChild(addText);
         newCard.appendChild(text);
         newCard.appendChild(moreInfo);
         newCard.appendChild(deleteCard);
     }, 3000);
-    (0, _index.container).appendChild(newCard);
+    const children = (0, _index.container).children;
+    let totalWidth = 300;
+    for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
+    if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./index":"fFaKF"}],"gkKU3":[function(require,module,exports) {
@@ -660,17 +681,34 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "clearAll", ()=>clearAll);
 var _index = require("./index");
+var _addAllCard = require("./addAllCard");
 function clearAll() {
     while((0, _index.container).children.length > 1)(0, _index.container).removeChild(...(0, _index.card));
     (0, _index.addAll).disabled = true;
+    window.removeEventListener("scroll", (0, _addAllCard.scroll), false);
 }
 
-},{"./index":"fFaKF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fMGtd":[function(require,module,exports) {
+},{"./index":"fFaKF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addAllCard":"fMGtd"}],"fMGtd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addAllCart", ()=>addAllCart);
-function addAllCart() {}
+parcelHelpers.export(exports, "scroll", ()=>scroll);
+var _addCard = require("./addCard");
+var _index = require("./index");
+function addAllCart() {
+    let i = (0, _index.container).offsetWidth * (0, _index.container).offsetHeight;
+    while(i >= 0){
+        (0, _addCard.addCart)();
+        i -= (0, _index.container).childElementCount * 2500;
+    }
+    window.addEventListener("scroll", scroll);
+}
+function scroll() {
+    const documentRect = document.documentElement.getBoundingClientRect();
+    if ((0, _index.container).offsetWidth > 650 && documentRect.bottom < (0, _index.container).clientHeight + 20) (0, _addCard.addCart)();
+    else if (documentRect.right < (0, _index.container).offsetWidth + 20) (0, _addCard.addCart)();
+}
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["j98HG","fFaKF"], "fFaKF", "parcelRequire015d")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./addCard":"8JDnc","./index":"fFaKF"}]},["j98HG","fFaKF"], "fFaKF", "parcelRequire015d")
 
 //# sourceMappingURL=index.0fbc91cd.js.map
