@@ -16,7 +16,7 @@ export function addCart() {
   addText.innerText = 'добавить текст';
   addText.className = 'button';
  
-  deleteCard.className = 'deleteCard';
+  deleteCard.className = 'button';
   deleteCard.innerText = 'Удалить';
 
   input.className = 'input';
@@ -30,7 +30,7 @@ export function addCart() {
   input.addEventListener('keypress', function(event) {
 
     if (!input.value) {
-      input.placeholder = 'type';
+      input.placeholder = 'tttt';
       return;
     }   
     if (event.key === 'Enter') {
@@ -43,7 +43,7 @@ export function addCart() {
 
   addText.addEventListener('click', () => {
     if (!input.value) {
-      input.placeholder = 'type';
+      input.placeholder = 'write something';
       return;
     }    
     text.classList.toggle('text');
@@ -53,8 +53,9 @@ export function addCart() {
   });
 
   title.innerText = 'card title';
+  title.className = 'card__title';
 
-  moreInfo.className = 'more-info';
+  moreInfo.className = 'button';
   moreInfo.innerText = 'Подробнее';
  
   moreInfo.addEventListener('click', function() {
@@ -76,6 +77,21 @@ export function addCart() {
   newCard.className = 'loader';
   container.appendChild(newCard);
 
+
+
+  const children = container.children;
+  let totalWidth = 300;
+
+  console.log(container.children[0].offsetWidth);
+  for (let i = 0; i < children.length; i++) {
+    totalWidth += parseInt(children[i].offsetWidth, 10);
+  }
+
+  if (container.clientWidth - totalWidth < 0) {
+    container.style.justifyContent = 'start';
+  }
+
+
   setTimeout(() => {
     newCard.className = 'card';
     newCard.appendChild(title);
@@ -85,15 +101,4 @@ export function addCart() {
     newCard.appendChild(moreInfo);
     newCard.appendChild(deleteCard);
   }, 3000);
-
-  const children = container.children;
-  let totalWidth = 300;
-
-  for (let i = 0; i < children.length; i++) {
-    totalWidth += parseInt(children[i].offsetWidth, 10);
-  }
-
-  if (container.clientWidth - totalWidth < 0) {
-    container.style.justifyContent = 'start';
-  }
 }

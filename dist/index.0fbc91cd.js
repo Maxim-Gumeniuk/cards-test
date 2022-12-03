@@ -575,7 +575,7 @@ function addCart() {
     text.className = "none";
     addText.innerText = "добавить текст";
     addText.className = "button";
-    deleteCard.className = "deleteCard";
+    deleteCard.className = "button";
     deleteCard.innerText = "Удалить";
     input.className = "input";
     input.innerText = input.value;
@@ -585,7 +585,7 @@ function addCart() {
     });
     input.addEventListener("keypress", function(event) {
         if (!input.value) {
-            input.placeholder = "type";
+            input.placeholder = "tttt";
             return;
         }
         if (event.key === "Enter") {
@@ -597,7 +597,7 @@ function addCart() {
     });
     addText.addEventListener("click", ()=>{
         if (!input.value) {
-            input.placeholder = "type";
+            input.placeholder = "write something";
             return;
         }
         text.classList.toggle("text");
@@ -606,7 +606,8 @@ function addCart() {
         addText.classList.toggle("none");
     });
     title.innerText = "card title";
-    moreInfo.className = "more-info";
+    title.className = "card__title";
+    moreInfo.className = "button";
     moreInfo.innerText = "Подробнее";
     moreInfo.addEventListener("click", function() {
         textModal.innerText = text.innerText;
@@ -621,6 +622,11 @@ function addCart() {
     });
     newCard.className = "loader";
     (0, _index.container).appendChild(newCard);
+    const children = (0, _index.container).children;
+    let totalWidth = 300;
+    console.log((0, _index.container).children[0].offsetWidth);
+    for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
+    if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
     setTimeout(()=>{
         newCard.className = "card";
         newCard.appendChild(title);
@@ -630,10 +636,6 @@ function addCart() {
         newCard.appendChild(moreInfo);
         newCard.appendChild(deleteCard);
     }, 3000);
-    const children = (0, _index.container).children;
-    let totalWidth = 300;
-    for(let i = 0; i < children.length; i++)totalWidth += parseInt(children[i].offsetWidth, 10);
-    if ((0, _index.container).clientWidth - totalWidth < 0) (0, _index.container).style.justifyContent = "start";
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./index":"fFaKF"}],"gkKU3":[function(require,module,exports) {
@@ -685,6 +687,7 @@ var _addAllCard = require("./addAllCard");
 function clearAll() {
     while((0, _index.container).children.length > 1)(0, _index.container).removeChild(...(0, _index.card));
     (0, _index.addAll).disabled = true;
+    (0, _index.addAll).style.checked.background = "f3f3f3";
     window.removeEventListener("scroll", (0, _addAllCard.scroll), false);
 }
 
@@ -702,6 +705,7 @@ function addAllCart() {
         i -= (0, _index.container).childElementCount * 2500;
     }
     window.addEventListener("scroll", scroll);
+    (0, _index.addAll).disabled = true;
 }
 function scroll() {
     const documentRect = document.documentElement.getBoundingClientRect();

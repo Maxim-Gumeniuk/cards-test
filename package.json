@@ -4,7 +4,7 @@
   "homepage": "https://maxim-gumeniuk.github.io/cards-test/",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "watch": "parcel src/index.html --open --port 3000",
+    "watch": "parcel src/index.html --open --port 4000",
     "start": "parcel",
     "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist"

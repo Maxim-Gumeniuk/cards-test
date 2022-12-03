@@ -1,24 +1,19 @@
 .card {
-  max-width: 150px;
-  height: 250px;
+  min-width: 280px;
+  max-height: 340px;
   text-align: center;
-  border: 1px solid #c95151;
+  border: 1px solid #787070;
+  border-radius: 10px;
   padding: 0px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
-}
+  background-color: #f6f6f6;
 
-.more-info {
-  width: 130px;
-  height: 30px;
-}
-
-.deleteCard {
-  width: 130px;
-  height: 30px;
+  &__title {
+    text-transform: uppercase;
+  }
 }
 
 .none {
@@ -28,14 +23,18 @@
 .text {
   display: block;
   opacity: 1;
-  max-width: 130px;
+  max-width: 180px;
   min-height: 50px;
   overflow: hidden;
 }
 
 .input {
-  width: 130px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   text-transform: uppercase;
   text-align: center;
+  background-color: transparent;
+  border: 1px solid #787070;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }

@@ -1,5 +1,5 @@
 import { addCart } from './addCard';
-import { container } from './index';
+import { container, addAll } from './index';
 
 export function addAllCart() {
   let i = container.offsetWidth * container.offsetHeight;
@@ -10,6 +10,9 @@ export function addAllCart() {
   }
 
   window.addEventListener('scroll', scroll);
+
+  addAll.disabled = true;
+
 }
 
 export function scroll() {

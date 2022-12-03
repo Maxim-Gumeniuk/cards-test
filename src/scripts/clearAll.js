@@ -7,5 +7,6 @@ export function clearAll() {
   }
 
   addAll.disabled = true;
+  addAll.style.checked.background = 'f3f3f3';
   window.removeEventListener('scroll', scroll, false);
 }
