@@ -14,7 +14,7 @@ export function addCart() {
   input.addEventListener('keypress', function(event) {
   
     if (!input.value) {
-      input.placeholder = 'please write something';
+      input.placeholder = 'please write';
       return;
     }   
     if (event.key === 'Enter') {
